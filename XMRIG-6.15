@@ -1,11 +1,19 @@
-
+XMRIG VERSION
+---------------------------------------------------------------------------------------------------------------------------------------
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux-x64.tar.gz && tar -xvf xmrig-6.15.1-linux-x64.tar.gz 
 
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz && tar -xvf xmrig-6.15.2-linux-x64.tar.gz
 
+---------------------------------------------------------------------------------------------------------------------------------------
+To set 75% CPU usage, type these commands at Putty root login, and press Enter.  
 
+$ sudo apt-get update 
+$ sudo apt-get install -y cpulimit 
+$ sudo cpulimit -e xmrig -l 75 -b  
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 CONFIG.JSON
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 {
     "api": {
@@ -101,7 +109,7 @@ CONFIG.JSON
             "url": "rx-asia.unmineable.com:3333",
             "user": "ETH:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc",
             "pass": "x",
-            "rig-id": "COLAB-02",
+            "rig-id": "COLAB-VPS-01",
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
