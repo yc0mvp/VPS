@@ -5,7 +5,7 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.15.1/xmrig-6.15.1-linux
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz && tar -xvf xmrig-6.15.2-linux-x64.tar.gz
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-To set 75% CPU usage, type these commands at Putty root login, and press Enter.  
+To set 75% CPU usage, type these commands at Putty root login, and press Enter. Update Ubuntu often by typing this command. It keeps Ubuntu up to date. 
 
 $ sudo apt-get update 
 $ sudo apt-get install -y cpulimit 
