@@ -5,6 +5,8 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux
 
 
 CONFIG.JSON
+
+
 {
     "api": {
         "id": null,
@@ -136,3 +138,6 @@ CONFIG.JSON
     "pause-on-battery": false,
     "pause-on-active": false
 }
+
+
+
