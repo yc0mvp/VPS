@@ -16,6 +16,8 @@ $ sudo apt-get update
 $ sudo apt-get install -y cpulimit 
 $ sudo cpulimit -e xmrig -l 75 -b  
 
+apt-get update && apt install screen && apt install nano && apt-get install -y cpulimit && cpulimit -e xmrig -l 75 -b
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 CONFIG.JSON
 -----------------------------------------------------------------------------------------------------------------------------------------
