@@ -112,9 +112,9 @@ cpulimit -e xmrig -l 75 -b && top
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
-            "tls": false,SHIB
+            "tls": false,
             "tls-fingerprint": null,
-            "daemon": fSHIB-alse,
+            "daemon": false,
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false
