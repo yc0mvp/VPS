@@ -7,7 +7,11 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux
 
 EDIT CONFIG.JSON 
 
-./xmrig && screen && cpulimit -e xmrig -l 75 -b && top
+./xmrig && 
+
+screen 
+
+cpulimit -e xmrig -l 75 -b && top
 
 ============================================================================================================================================================
 
