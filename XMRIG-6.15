@@ -1,3 +1,27 @@
+
+apt-get update && apt install screen && apt install nano && apt-get install -y cpulimit 
+
+SCREEN
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.34a/lolMiner_v1.34a_Lin64.tar.gz && tar -xvf lolMiner_v1.34a_Lin64.tar.gz && ./1.34a/lolMiner --algo ETHASH --pool ethash-asia.unmineable.com:3333 --user ETH:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.COLOCATION-01
+
+SCREEN
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz && tar -xvf xmrig-6.15.2-linux-x64.tar.gz && cd xmrig-6.15.2
+
+EDIT CONFIG.JSON 
+
+./xmrig 
+
+SCREEN
+
+cpulimit -e xmrig -l 75 -b
+
+TOP
+
+======================================================================================================================================================================
+
+
 lolMINER v1.34a
 -------------------------------------------------------------------------------------------------------------------------------------
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.34a/lolMiner_v1.34a_Lin64.tar.gz && tar -xvf lolMiner_v1.34a_Lin64.tar.gz && ./1.34a/lolMiner --algo ETHASH --pool ethash-asia.unmineable.com:3333 --user ETH:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.COLOCATION-01
