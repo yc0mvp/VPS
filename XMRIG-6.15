@@ -39,7 +39,9 @@ CONFIG.JSON
     ]
 }
 
-install CUDA : wget https://git.mmpos.eu/cpu-linux/xmrig/-/raw/d16820273c53d5c5d7fbcb6df6aa60964936418d/libxmrig-cuda.so
+install CUDA : wget https://git.mmpos.eu/cpu-linux/xmrig/-/raw/v6.15.2/libxmrig-cuda.so
+
+versi CUDO : https://git.mmpos.eu/cpu-linux/xmrig/-/blob/v6.15.2/libxmrig-cuda.so
             
 --------------------------------------------------------------------------------------------------------------------------------------------
 
