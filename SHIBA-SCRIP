@@ -1,16 +1,19 @@
 apt-get update && apt install screen && apt install nano && apt-get install -y cpulimit && clear && screen 
 
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.34a/lolMiner_v1.34a_Lin64.tar.gz && tar -xvf lolMiner_v1.34a_Lin64.tar.gz && ./1.34a/lolMiner --algo ETHASH --pool ethash-asia.unmineable.com:3333 --user SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-01 && screen
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.34a/lolMiner_v1.34a_Lin64.tar.gz && tar -xvf lolMiner_v1.34a_Lin64.tar.gz && ./1.34a/lolMiner --algo ETHASH --pool ethash-asia.unmineable.com:3333 --user SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-01 
 
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.2/xmrig-6.15.2-linux-x64.tar.gz && tar -xvf xmrig-6.15.2-linux-x64.tar.gz && cd xmrig-6.15.2 && nano config.json
+----SCREEN ---
+
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.3/xmrig-6.15.3-linux-x64.tar.gz && tar -xvf xmrig-6.15.3-linux-x64.tar.gz && cd xmrig-6.15.3 && nano config.json
 
 EDIT CONFIG.JSON 
 
 ./xmrig && 
 
-screen 
+---SCREEN--- 
 
-cpulimit -e xmrig -l 75 -b && top
+cpulimit -e xmrig -l 81 -b && top
+
 
 ============================================================================================================================================================
 
@@ -108,7 +111,7 @@ cpulimit -e xmrig -l 75 -b && top
             "url": "rx-asia.unmineable.com:3333",
             "user": "SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc",
             "pass": "x",
-            "rig-id": "SHIB-COLAB-VPS-01",
+            "rig-id": "SHIB-VPS-01",
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
@@ -145,3 +148,6 @@ cpulimit -e xmrig -l 75 -b && top
     "pause-on-battery": false,
     "pause-on-active": false
 }
+
+
+
