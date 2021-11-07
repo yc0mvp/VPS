@@ -1,6 +1,6 @@
 # VPS remote
 Hi guys 
-this scrip vps for mining cryptocureccy
+this scrip for vps mining cryptocureccy
 scrip use lolMiner dan xmrig
-i hope ...enjoy and happy mining
+i hope U ...enjoy and happy mining
 de yc0mvp
