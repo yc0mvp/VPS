@@ -2,7 +2,7 @@ POOL Microbitcoin :  https://pool.rplant.xyz/
 Wallet : https://microbitcoinorg.github.io/wallet/#/
 
 
-apt-get update && apt install screen && apt install nano && apt-get install -y cpulimit && clear && screen 
+apt-get update ; apt install screen ; apt install nano ; apt-get install -y cpulimit ; clear ; screen 
 
 
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz ; tar -xvf cpuminer-opt-linux.tar.gz ; cd cpuminer-opt-linux ; ./cpuminer-sse2 -a power2b  -o stratum+tcps://stratum-asia.rplant.xyz:17022 -u MkoiAhw8Rk3j4CCwsdoeoVkXpisXPeLfRh.MicroBTC-01
