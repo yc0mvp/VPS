@@ -1,3 +1,6 @@
+POOL Microbitcoin :  https://pool.rplant.xyz/
+Wallet : https://microbitcoinorg.github.io/wallet/#/
+
 
 apt-get update && apt install screen && apt install nano && apt-get install -y cpulimit && clear && screen 
 
