@@ -51,7 +51,7 @@ cpulimit -e xmrig -l 81 -b && top
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
@@ -115,7 +115,7 @@ cpulimit -e xmrig -l 81 -b && top
             "url": "rx-asia.unmineable.com:3333",
             "user": "SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc",
             "pass": "x",
-            "rig-id": "SHIB-VPS-01",
+            "rig-id": "SHIB-XRcloud-01",
             "nicehash": false,
             "keepalive": false,
             "enabled": true,
