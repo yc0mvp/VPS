@@ -46,7 +46,7 @@ cpulimit -e xmrig -l 81 -b && htop
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
