@@ -1,0 +1,11 @@
+This is a multi-threaded CPU miner for Litecoin and Bitcoin,
+fork of Jeff Garzik's reference cpuminer.
+
+License: GPLv2.  See COPYING for details.
+
+Downloads:  https://sourceforge.net/projects/cpuminer/files/
+Git tree:   https://github.com/pooler/cpuminerweb :
+https://bitcointalk.org/index.php?topic=5190081.0
+https://github.com/allforminers/SRBMiner-CPU-Linux
+
+!wget https://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.5.1-linux-x86_64.tar.gz/cpuminer-2.5.1
