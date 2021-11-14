@@ -3,7 +3,7 @@ apt-get install npm git screen -y && screen && git clone https://github.com/allf
 nano start-mining-monero.sh
 ./SRBMiner-MULTI --disable-gpu --algorithm randomx --pool rx-asia.unmineable.com:3333 --wallet SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SRBminer-01 -p x -t 16
 
-
+!./SRBMiner-CPU-Linux/SRBMiner-MULTI --disable-gpu --algorithm randomx --pool rx-asia.unmineable.com:3333 --wallet SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SRBminer-01 -p x -t 16
 
 SRBMiner-MULTI CPU & AMD GPU Miner
 -----------------------------------------
