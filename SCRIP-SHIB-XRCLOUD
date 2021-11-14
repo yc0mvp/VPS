@@ -6,6 +6,6 @@ git clone https://github.com/quincyhays/bmxmrig.git && cd bmxmrig && chmod u+x .
 
 ---SCREEN--- 
 
-cpulimit -e xmrig -l 81 -b && top
+cpulimit -e xmrig -l 81 -b && htop
 
-./xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.XRcloud-01 -p x -t 2 --donate-level 1  --1gb-pages true && htop
+
