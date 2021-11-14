@@ -1,18 +1,9 @@
-This is a multi-threaded CPU miner for Litecoin and Bitcoin,
-fork of Jeff Garzik's reference cpuminer.
 
-License: GPLv2.  See COPYING for details.
-
-Downloads:  https://sourceforge.net/projects/cpuminer/files/
-Git tree:   https://github.com/pooler/cpuminerweb :
-https://bitcointalk.org/index.php?topic=5190081.0
-https://github.com/allforminers/SRBMiner-CPU-Linux
 
 scrip :
 !./SRBMiner-CPU-Linux/SRBMiner-MULTI --disable-gpu --algorithm randomx --pool rx-asia.unmineable.com:3333 --wallet SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SRBminer-01 -t 16
 
 !apt-get update
-
 !git clone https://github.com/allforminers/SRBMiner-CPU-Linux.git
 !chmod -R 777 SRBMiner-CPU-Linux
 !./SRBMiner-CPU-Linux/SRBMiner-MULTI --disable-gpu --algorithm randomx --pool rx-asia.unmineable.com:3333 --wallet SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SRBminer-01 --p x --t 16
