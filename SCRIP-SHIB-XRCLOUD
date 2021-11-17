@@ -1,4 +1,6 @@
+
 VPS SERVER  : https://www.xrcloud.com/
+
 
 apt-get update && apt install screen && apt-get install cpulimit && apt install htop && screen 
 
@@ -6,6 +8,7 @@ git clone https://github.com/quincyhays/bmxmrig.git && cd bmxmrig && chmod u+x .
 
 ---SCREEN--- 
 
-cpulimit -e xmrig -l 81 -b && htop
+cpulimit -e xmrig -l 91 -b && htop
+
 
 
