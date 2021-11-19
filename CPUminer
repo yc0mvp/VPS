@@ -1,0 +1,14 @@
+
+
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt install git automake autoconf libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev 
+sudo git clone https://github.com/carolinedunn/cpuminer-multi
+git clone https://github.com/tpruvot/cpuminer-multi
+cd cpuminer-multi
+sudo ./autogen.sh
+sudo ./configure
+sudo ./build.sh
+
+./cpuminer -a randomx -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.CORE16-01 -p x -t 16 --donate-level 1  --1gb-pages
+
+
