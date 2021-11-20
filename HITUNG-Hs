@@ -1,0 +1,20 @@
+
+Bagaimana saya bisa menambang 1 Monero per hari?
+
+Monero bekerja dengan prinsip yang sama dengan Bitcoin yaitu Proof of Work.
+
+Apa itu Proof of Work ?
+
+Semua penambang meminjamkan kekuatan komputasi mereka ke jaringan Bitcoin dan memverifikasi transaksi. Transaksi terverifikasi ini dipukul menjadi satu blok. Pada setiap blok yang ditambang, Bitcoin atau Monero diberikan tergantung pada Blockchain yang sedang Anda kerjakan. Untuk tujuan menghasilkan melalui penambangan, Anda perlu memahami hal ini bahwa kemungkinan Anda menambang satu blok sebanding dengan kontribusi Anda ke seluruh tingkat hash jaringan.
+
+Monero adalah cryptocurrency Proof of Work yang dapat ditambang dengan daya komputasi dari CPU atau GPU. Saat ini tidak ada ASIC untuk Monero, yang berarti siapa pun yang memiliki komputer dapat menambangnya.
+
+Rata-rata satu blok ditambang dalam 2 menit, yaitu 720 blok ditambang dalam sehari
+Total hashrate jaringan kira-kira 77,5 Mh/s
+Hadiah penambangan kira-kira kurang dari 7,5XMR/blok saat ini
+Menggunakan rumus n = (Network Hashrate) / (720 * Avg Block Reward):
+
+n = 14444.4 H/s, atau 14.44 kH/s untuk menambang 1 XMR per hari.
+
+Anda akan membutuhkan sekitar 60 GTX 750 Ti pada 250 H/s masing-masing, ATAU sekitar 25RX 470 pada 600 H/s masing-masing, ATAU sekitar 20 RX 480 pada 750 H/s masing-masing untuk menambang 1XMR setiap hari.
+
