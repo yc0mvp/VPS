@@ -3,6 +3,10 @@ apt-get update && apt install screen && apt install nano && apt install htop && 
 
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.35/lolMiner_v1.35_Lin64.tar.gz && tar -xvf lolMiner_v1.35_Lin64.tar.gz && ./1.35/lolMiner --algo ETHASH --pool ethash-asia.unmineable.com:3333 --user SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-COLAB-GPU-01 
 
+wget https://cryptodredge.org/download/linux/10.2/latest
+
+
+
 --SCREEN --
 
 wget https://github.com/xmrig/xmrig/releases/download/v6.15.3/xmrig-6.15.3-linux-x64.tar.gz && tar -xvf xmrig-6.15.3-linux-x64.tar.gz && ./xmrig-6.15.3/xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-COLAB-CPU-01 -p x -t 2  --donate-level 1  --1gb-pages true  
