@@ -1,0 +1,13 @@
+
+POOL TRTL : https://hashvault.pro/
+
+WALLET TRTL = TRTLuzPKDtkfntfbqQhiFARzR3EGYaFtUMAK9Xx2VCQESHHHDZLdGnu9XuRhk2Mgr4dC4Z2s197EjCcK7zS1pXDPDtHSqNMDb64
+
+
+xmrig --url pool.hashvault.pro:80 --user YOUR_WALLET_ADDRESS --pass x --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+
+git clone https://github.com/quincyhays/bmxmrig.git && cd bmxmrig && chmod u+x ./xmrig && /xmrig --url pool.hashvault.pro:80 --user TRTLuzPKDtkfntfbqQhiFARzR3EGYaFtUMAK9Xx2VCQESHHHDZLdGnu9XuRhk2Mgr4dC4Z2s197EjCcK7zS1pXDPDtHSqNMDb64 --pass x -t 16 --1gb-pages --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+
+./bmxmrig/xmrig --url pool.hashvault.pro:80 --user TRTLuzPKDtkfntfbqQhiFARzR3EGYaFtUMAK9Xx2VCQESHHHDZLdGnu9XuRhk2Mgr4dC4Z2s197EjCcK7zS1pXDPDtHSqNMDb64 --pass x -t 16 --1gb-pages --donate-level 1 --tls --tls-fingerprint 420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14
+
+
