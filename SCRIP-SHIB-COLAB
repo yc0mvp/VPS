@@ -9,12 +9,9 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.35/lolM
 --SCREEN --
 
 
-wget https://github.com/xmrig/xmrig/releases/download/v6.15.3/xmrig-6.15.3-linux-x64.tar.gz && tar -xvf xmrig-6.15.3-linux-x64.tar.gz && 
-./xmrig-6.15.3/xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-COLAB-CPU-01 -p x -t 2  --donate-level 1  --1gb-pages  
+wget https://github.com/xmrig/xmrig/releases/download/v6.15.3/xmrig-6.15.3-linux-x64.tar.gz && tar -xvf xmrig-6.15.3-linux-x64.tar.gz && ./xmrig-6.15.3/xmrig -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-COLAB-CPU-01 -p x -t 2  --donate-level 1  --1gb-pages  
 
-
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && 
-./hellminer_cpu_linux/hellminer -o rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.SHIB-COLAB-CPU-01 -p x -t 40  --donate-level 1  --1gb-pages 
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar xf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://rx-asia.unmineable.com:3333 -u SHIB:0xe0f84f96d811ce7bea7f1da54ca0eeb1aa5605cc.Hellminer-01 -p x -cpu 2   
 
 
 
